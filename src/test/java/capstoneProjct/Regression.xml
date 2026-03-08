@@ -1,0 +1,17 @@
+<suite name="Regression Suite">
+
+    <test name="Capstone Tests">
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="capstoneProjct.All_ElementsinUI"/>
+            <class name="capstoneProjct.Class2_Capston"/>
+            <class name="capstoneProjct.Class3_Capstone"/>
+            <class name="capstoneProjct.Class4_Capstone"/>
+            <class name="capstoneProjct.Capstone5"/>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,30 @@
+
+<suite name="RegressionSuite" parallel="tests" thread-count="2">
+
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="capstoneProjct.All_ElementsinUI"/>
+            <class name="capstoneProjct.Class2_Capston"/>
+            <class name="capstoneProjct.Class3_Capstone"/>
+            <class name="capstoneProjct.Class4_Capstone"/>
+            <class name="capstoneProjct.Capstone5"/>
+        </classes>
+
+    </test>
+
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge"/>
+
+        <classes>
+            <class name="capstoneProjct.All_ElementsinUI"/>
+            <class name="capstoneProjct.Class2_Capston"/>
+            <class name="capstoneProjct.Class3_Capstone"/>
+            <class name="capstoneProjct.Class4_Capstone"/>
+            <class name="capstoneProjct.Capstone5"/>
+        </classes>
+
+    </test>
+
+</suite>
