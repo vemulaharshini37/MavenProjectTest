@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 public class All_ElementsinUI {
 	@Test
 	public void All_ElementsinUI1()
+	//5c43a7217b2e421ba49a521fefa73417
+
 
 	{
        WebDriver driver = new ChromeDriver();

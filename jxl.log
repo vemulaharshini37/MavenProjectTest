@@ -1,0 +1,242 @@
+2026-03-10 21:54:19,031 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://rahulshettyacademy.com:443
+2026-03-10 21:54:19,094 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to rahulshettyacademy.com:443
+2026-03-10 21:54:19,476 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2026-03-10 21:54:19,477 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2026-03-10 21:54:19,478 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2026-03-10 21:54:19,479 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2026-03-10 21:54:19,480 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2026-03-10 21:54:19,481 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1
+2026-03-10 21:54:19,482 [DEBUG] org.apache.http.wire  -  >> "POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 330[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.wire  -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.headers  - >> POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+2026-03-10 21:54:19,483 [DEBUG] org.apache.http.headers  - >> Content-Length: 330
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.headers  - >> Host: rahulshettyacademy.com
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "{[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    "location": {[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "        "lat": -20.383494,[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "        "lng": 40.427362[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    },[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    "accuracy": 100,[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    "name": "GSIT Office",[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    "phone_number": "(+91) 983 893 3333",[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    "address": "GrowSkillIT, Warangal",[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    "types": [[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "        "Office"[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    ],[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    "website": "http://www.gsit.com",[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "    "language": "English-IN"[\r][\n]"
+2026-03-10 21:54:19,484 [DEBUG] org.apache.http.wire  -  >> "}"
+2026-03-10 21:54:19,526 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Date: Tue, 10 Mar 2026 16:24:19 GMT[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Server: Apache/2.4.52 (Ubuntu)[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Strict-Transport-Security: max-age=604800; includeSubDomains[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Content-Length: 194[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Connection: Keep-Alive[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2026-03-10 21:54:19,528 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2026-03-10 21:54:19,530 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Date: Tue, 10 Mar 2026 16:24:19 GMT
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Server: Apache/2.4.52 (Ubuntu)
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Strict-Transport-Security: max-age=604800; includeSubDomains
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Methods: POST
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Access-Control-Max-Age: 3600
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Content-Length: 194
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Keep-Alive: timeout=5, max=100
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Connection: Keep-Alive
+2026-03-10 21:54:19,531 [DEBUG] org.apache.http.headers  - << Content-Type: application/json;charset=UTF-8
+2026-03-10 21:54:19,536 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive for 5000 MILLISECONDS
+2026-03-10 21:54:19,543 [DEBUG] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json;charset=UTF-8
+2026-03-10 21:54:19,544 [DEBUG] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2026-03-10 21:54:19,577 [DEBUG] org.apache.http.wire  -  << "{"status":"OK","place_id":"2feebb098804de6c85c14648a08aadc5","scope":"APP","reference":"5ee8f250969dfc67b288b3a27b65382e5ee8f250969dfc67b288b3a27b65382e","id":"5ee8f250969dfc67b288b3a27b65382e"}"
+2026-03-10 21:54:19,578 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1422ac7f
+2026-03-10 21:54:19,578 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive for 5000 MILLISECONDS
+2026-03-10 21:54:20,713 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://rahulshettyacademy.com:443
+2026-03-10 21:54:20,714 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to rahulshettyacademy.com:443
+2026-03-10 21:54:20,790 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2026-03-10 21:54:20,790 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2026-03-10 21:54:20,790 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2026-03-10 21:54:20,790 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: PUT /maps/api/place/update/json?key=qaclick123 HTTP/1.1
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "PUT /maps/api/place/update/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 123[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.headers  - >> PUT /maps/api/place/update/json?key=qaclick123 HTTP/1.1
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.headers  - >> Content-Length: 123
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.headers  - >> Host: rahulshettyacademy.com
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "{[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> ""place_id":"2feebb098804de6c85c14648a08aadc5",[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> ""address":"70 Summer walk, USA, seerole, mhbd",[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> ""key":"qaclick123"[\r][\n]"
+2026-03-10 21:54:20,791 [DEBUG] org.apache.http.wire  -  >> "}[\r][\n]"
+2026-03-10 21:54:23,424 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Date: Tue, 10 Mar 2026 16:24:20 GMT[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Server: Apache/2.4.52 (Ubuntu)[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Strict-Transport-Security: max-age=604800; includeSubDomains[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Content-Length: 38[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Connection: Keep-Alive[\r][\n]"
+2026-03-10 21:54:23,425 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Date: Tue, 10 Mar 2026 16:24:20 GMT
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Server: Apache/2.4.52 (Ubuntu)
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Strict-Transport-Security: max-age=604800; includeSubDomains
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Methods: POST
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Access-Control-Max-Age: 3600
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Content-Length: 38
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Keep-Alive: timeout=5, max=100
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Connection: Keep-Alive
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.headers  - << Content-Type: application/json;charset=UTF-8
+2026-03-10 21:54:23,426 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive for 5000 MILLISECONDS
+2026-03-10 21:54:23,427 [DEBUG] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json;charset=UTF-8
+2026-03-10 21:54:23,427 [DEBUG] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2026-03-10 21:54:23,429 [DEBUG] org.apache.http.wire  -  << "{"msg":"Address successfully updated"}"
+2026-03-10 21:54:23,429 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@115ca7de
+2026-03-10 21:54:23,429 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive for 5000 MILLISECONDS
+2026-03-10 21:54:23,475 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://rahulshettyacademy.com:443
+2026-03-10 21:54:23,475 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to rahulshettyacademy.com:443
+2026-03-10 21:54:23,549 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /maps/api/place/get/json?key=qaclick123&place_id=2feebb098804de6c85c14648a08aadc5 HTTP/1.1
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.wire  -  >> "GET /maps/api/place/get/json?key=qaclick123&place_id=2feebb098804de6c85c14648a08aadc5 HTTP/1.1[\r][\n]"
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.wire  -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)[\r][\n]"
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2026-03-10 21:54:23,550 [DEBUG] org.apache.http.headers  - >> GET /maps/api/place/get/json?key=qaclick123&place_id=2feebb098804de6c85c14648a08aadc5 HTTP/1.1
+2026-03-10 21:54:23,551 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2026-03-10 21:54:23,551 [DEBUG] org.apache.http.headers  - >> Host: rahulshettyacademy.com
+2026-03-10 21:54:23,551 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2026-03-10 21:54:23,551 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+2026-03-10 21:54:23,551 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2026-03-10 21:54:25,399 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Date: Tue, 10 Mar 2026 16:24:23 GMT[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Server: Apache/2.4.52 (Ubuntu)[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Strict-Transport-Security: max-age=604800; includeSubDomains[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Content-Length: 258[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Connection: Keep-Alive[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2026-03-10 21:54:25,400 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Date: Tue, 10 Mar 2026 16:24:23 GMT
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Server: Apache/2.4.52 (Ubuntu)
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Strict-Transport-Security: max-age=604800; includeSubDomains
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Methods: POST
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Access-Control-Max-Age: 3600
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Content-Length: 258
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Keep-Alive: timeout=5, max=100
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Connection: Keep-Alive
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.headers  - << Content-Type: application/json;charset=UTF-8
+2026-03-10 21:54:25,401 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive for 5000 MILLISECONDS
+2026-03-10 21:54:25,401 [DEBUG] io.restassured.internal.RestAssuredHttpBuilder  - Parsing response as: application/json;charset=UTF-8
+2026-03-10 21:54:25,402 [DEBUG] io.restassured.internal.RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2026-03-10 21:54:25,404 [DEBUG] org.apache.http.wire  -  << "{"location":{"latitude":"-20.383494","longitude":"40.427362"},"accuracy":"100","name":"GSIT Office","phone_number":"(+91) 983 893 3333","address":"70 Summer walk, USA, seerole, mhbd","types":"Office","website":"http:\/\/www.gsit.com","language":"English-IN"}"
+2026-03-10 21:54:25,404 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3a479fda
+2026-03-10 21:54:25,404 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive for 5000 MILLISECONDS
+2026-03-10 21:54:25,465 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://rahulshettyacademy.com:443
+2026-03-10 21:54:25,465 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to rahulshettyacademy.com:443
+2026-03-10 21:54:25,544 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.wire  -  >> "DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.wire  -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]"
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 58[\r][\n]"
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.wire  -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2026-03-10 21:54:25,545 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)[\r][\n]"
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.headers  - >> DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.headers  - >> Content-Type: text/plain; charset=ISO-8859-1
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.headers  - >> Content-Length: 58
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.headers  - >> Host: rahulshettyacademy.com
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.wire  -  >> "{\r\n" +[\r][\n]"
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.wire  -  >> "      "\"place_id\":\""+pid+"\"\r\n" +[\r][\n]"
+2026-03-10 21:54:25,546 [DEBUG] org.apache.http.wire  -  >> "      "}"
+2026-03-10 21:54:25,577 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2026-03-10 21:54:25,577 [DEBUG] org.apache.http.wire  -  << "Date: Tue, 10 Mar 2026 16:24:25 GMT[\r][\n]"
+2026-03-10 21:54:25,577 [DEBUG] org.apache.http.wire  -  << "Server: Apache/2.4.52 (Ubuntu)[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Strict-Transport-Security: max-age=604800; includeSubDomains[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Content-Length: 0[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Connection: Keep-Alive[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.headers  - << Date: Tue, 10 Mar 2026 16:24:25 GMT
+2026-03-10 21:54:25,578 [DEBUG] org.apache.http.headers  - << Server: Apache/2.4.52 (Ubuntu)
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Strict-Transport-Security: max-age=604800; includeSubDomains
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Methods: POST
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Access-Control-Max-Age: 3600
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Content-Length: 0
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Keep-Alive: timeout=5, max=100
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Connection: Keep-Alive
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=UTF-8
+2026-03-10 21:54:25,579 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive for 5000 MILLISECONDS
